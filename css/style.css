@@ -1,0 +1,92 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(0, 0, 0, 0.7);
+    scroll-behavior: smooth;
+    background: #f9f9f9f9;
+}
+
+.home {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.home main {
+    display: grid;
+    height: 80vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10vh 1fr;
+    padding: 0 100px;
+}
+
+.home main h1 {
+    text-align: center;
+    color: #4ecd66;
+    grid-column: 1/3;
+    align-self: center;
+    border-bottom: 5px solid #4ecd66;
+    border-radius: 5px;
+    margin: 0px auto;
+    padding: 15px 40px 5px;
+}
+
+figure {
+    display: grid;
+    grid-template-rows: 1fr 15px;
+}
+
+figure a {
+    font-size: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+    align-self: center;
+}
+
+figure a:hover {
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 1);
+}
+
+.home main div {
+    padding: 20px 40px;
+    justify-content: center;
+    align-self: center;
+    background: #4ecd66;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+}
+
+.home main h3 {
+    padding-bottom: 20px;
+}
+
+.home main p {
+    text-indent: 20px;
+    letter-spacing: 0.2px;
+    line-height: 30px;
+    font-size: 14.5px;
+    font-weight: 600;
+}
+
+.home main img {
+    width: 314.5px;
+    justify-self: center;
+    align-self: center;
+}
+
+#information {
+    background: #4ecd66;
+    color: #fff;
+}
+
+#information main {
+    margin: 0px 100px 0px 100px;
+    padding: 80px;
+}
